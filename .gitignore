@@ -1,0 +1,7 @@
+.venv/
+.keras/
+.matplotlib/
+data/
+__pycache__/
+.ipynb_checkpoints/
+.ipython/
