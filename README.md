@@ -1,12 +1,10 @@
-# Final Project
+# Final Project: Waste Classification
 
-This is my TensorFlow image-classification project. I used MobileNetV2 to recognize five kinds of flowers, first with feature extraction and then with fine-tuning. The notebook also shows the training results and predictions on test images.
+This notebook trains a VGG16 transfer-learning model to classify waste images as organic (`O`) or recyclable (`R`). It includes the assignment tasks: TensorFlow version, image generators, model summary, training curves, and two test-image predictions.
 
-## Run the notebook
+Open `Final project.ipynb` in VS Code and run the cells from top to bottom. The notebook downloads the assignment image split and ImageNet weights when needed. Training data and downloaded model files are kept in ignored folders.
 
-Open `Final project.ipynb` in VS Code, choose the Python environment in `.venv`, and select **Run All**. On the first run, it downloads the flower photos and the pretrained MobileNetV2 weights.
-
-To set up the environment:
+To set up the Python environment:
 
 ```bash
 python3 -m venv .venv
